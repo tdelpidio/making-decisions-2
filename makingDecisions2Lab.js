@@ -67,6 +67,24 @@ var score = 74
 
 //Code Here
 
+if(score >= 90){
+  console.log("A")
+}
+else if(score <= 89 && score >=80){
+  console.log("B")
+}
+else if(score <= 79 && score >=70){
+  console.log("C")
+}
+else if(score <= 69 && score >=60){
+  console.log("D")
+}
+else {
+  console.log("F")
+}
+
+console.log(score)
+
 
 ////////// Intermediate Problems //////////
 
@@ -112,6 +130,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+
+
+
 
 
 ////////// Advanced Problems //////////
